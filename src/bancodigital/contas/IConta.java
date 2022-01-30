@@ -1,0 +1,9 @@
+package bancodigital.contas;
+
+public interface IConta {
+    void sacar(double valor);
+
+    void transferir(double valor, IConta contaDestino);
+
+    void depositar(double valor);
+}
